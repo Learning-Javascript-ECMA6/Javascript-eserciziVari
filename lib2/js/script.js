@@ -19,3 +19,5 @@ var colore = prompt("Qual è il tuo colore preferito?")
  risposta = (nome + cognome + colore + 14);
  console.log("allora la password utente sarà : " + risposta);
  document.writeln("Ciao " + nome +  ", la tua nuova password è : " + risposta + ".");
+
+//finito
