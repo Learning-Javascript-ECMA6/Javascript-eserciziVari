@@ -1,14 +1,9 @@
-/*
-//Chiedere al visitatore il suo nome e salutarlo
-//Quanti anni hai? Allora sei nato nel...
+//Crea un array contenente 3 nomi. Chiedi un numero da 0 a 2 all’utente e stampa l’elemento dell’array corrispondente.
 
-var nome = prompt("Come ti chiami?");
-console.log("il nome dell utente sarà : " + nome);
+array = ["vale", "sabri", "luca"];
 
-var anni = prompt("ciao " + nome + " quanti anni hai?");
-console.log("i suoi anni sono :" + anni);
+console.log("questo è il contenuto dell'array : " + array);
+utente = prompt("scegli un numero da 0 a 2");
 
-var risposta = (2019 - anni)
-console.log("allora sei nato nel  : " + risposta);
-document.writeln ("allora sei nato nel  : " + risposta)
-*/
+console.log("questo è l'elemento dell array corrispondente : " + array[utente]);
+document.writeln ("Questo è l'elemento dell array corrispondente : " + array[utente], ".");
