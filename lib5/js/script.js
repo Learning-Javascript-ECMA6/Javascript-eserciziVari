@@ -11,4 +11,4 @@ console.log(min);
 
 result = (60 - min);
 console.log("mancano " + result + " minuti alla fine dell'ora");
-document.writeln ("mancano " + result + " minuti alla fine dell'ora")
+document.writeln ("Mancano " + result + " minuti alla fine dell'ora.")
