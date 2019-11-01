@@ -14,7 +14,6 @@ function miaFunzione(nomeArray){
    console.log("i numeri estrapolati dal ciclo for sono : " , mioArray[i]);
   }
  }
-
  console.log("la somma del risultato dei numeri in posizione dispari è : " , somma);
  return somma
 }
