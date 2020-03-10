@@ -11,13 +11,17 @@ console.log("la 2 parola inserita sarà " + parola2);
 
 //utilizzo le condizioni per stabilirne la lunghezza
 if (parola1>parola2) {
- //se parola1 è maggiore di parola2
- console.log("la parola piu lunga è " + parola1);
- //la parola più lunga è parola1
- document.writeln ("La parola piu lunga è " + parola1 + " .");
-}
-//viceversa è parola2
-else{
- console.log("la parola piu lunga è " + parola2);
- document.writeln ("La parola piu lunga è : " + parola2 + " .");
+    //se parola1 è maggiore di parola2
+    console.log("la parola piu lunga è " + parola1);
+    //la parola più lunga è parola1
+    document.writeln ("La parola piu lunga è " + parola1 + " .");
+}   //viceversa è parola2
+    else if (parola2 > parola1){
+        console.log("la parola piu lunga è " + parola2);
+        document.writeln("La parola piu lunga è : " + parola2 + " .");
+    }
+    else{
+     //se invece sono uguali 
+    console.log('le due parole sono uguali');
+    document.writeln("Le due parole sono uguali.");
 };

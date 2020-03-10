@@ -11,7 +11,7 @@ console.log("i suoi anni sono :" + anni);
 
 //rispondo mostrando il suo anno di nascita
 var risposta = (2019 - anni)
-console.log("allora sei nato nel  : " + risposta);
-document.writeln ("Allora sei nato nel  : " + risposta + ".");
+console.log("Benvenuto " + nome + ", sei nato nel  : " + risposta);
+document.writeln("Benvenuto " + nome + ", sei nato nel  : " + risposta + ".");
 
 //finito

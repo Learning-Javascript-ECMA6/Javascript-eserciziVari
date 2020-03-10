@@ -3,6 +3,6 @@
 var numero = parseInt(prompt("scegli un numero"))
 console.log("il numero utente sarà : " + numero++);
 
-risultato = numero++
+var risultato = numero++
 console.log("Il risultato sarà " + risultato);
 document.writeln("Il risultato sarà " + risultato, ".")
