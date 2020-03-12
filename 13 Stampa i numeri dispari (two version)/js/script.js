@@ -1,3 +1,38 @@
+//Genero 10 numeri random utilizzando una funzione
+var result;
+
+for (var i = 0; i < 10; i++) {
+    var result = generaNumero(10, 1);
+    console.log('genero 10 numeri random : ', result);
+}
+
+function generaNumero(max, min) {
+    var numeroGenerato = Math.floor(Math.random() * (max - min + 1)) + min;
+    return numeroGenerato;
+}
+
+
+
+//Verifico attraverso una funzione se il numero passato dell’utente è pari o dispari
+
+var num = prompt('segli un numero');
+
+function pariOdisp(num) {
+    var divisione = num % 2 == 0;
+    return divisione;
+}
+
+var res = pariOdisp(num);
+console.log(res);
+
+if (res === true) {
+    console.log(' il numero è pari');
+} else {
+    console.log('il numero è dispari');
+}
+
+
+
 //Inserisci un numero, se è pari stampa il numero, se è dispari stampa il numero successivo
 
 //chiedo all'utente di scegliere un numero
