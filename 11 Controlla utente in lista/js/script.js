@@ -1,4 +1,3 @@
-
 //Chiedi all’utente il suo nome controlla che sia nella lista di chi può accedere e stampa un messaggio appropriato
 
 var list =["vale", "silvia","sabrina","luisa","marco","luca","giacomo","simone","francesco"];
@@ -25,3 +24,5 @@ if (invito === true){
 }else {
  document.writeln  (nome + ",  non sei invitato alla festa !" );
 };
+
+//finito

@@ -18,3 +18,4 @@ for (var i = 0; i < number.length; i++){
    document.writeln (number[i]);
  }
 }
+ //finito

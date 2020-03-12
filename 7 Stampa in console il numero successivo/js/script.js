@@ -6,3 +6,5 @@ console.log("il numero utente sarà : " + numero++);
 var risultato = numero++
 console.log("Il risultato sarà " + risultato);
 document.writeln("Il risultato sarà " + risultato, ".")
+
+//finito

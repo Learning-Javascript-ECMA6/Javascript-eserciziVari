@@ -1,6 +1,5 @@
 //Inserisci due parole, quale è la piu lunga?
 
-
 //inserisco la prima parola data dall'utente
 var parola1 = prompt("inserisci una parola");
 console.log("la 1 parola inserita sarà " + parola1);
@@ -26,6 +25,8 @@ if (parola1>parola2) {
     document.writeln("Le due parole sono uguali.");
 };
 
+//finito
+
 
 //L’utente inserisce due parole in successione, con due prompt.
 //Il software stampa prima la parola più corta, poi la parola più lunga.
@@ -43,3 +44,5 @@ if (primaParola.length > secondaParola.length) {
     document.getElementById('id').innerHTML = 'Le due parole sono uguali';
     console.log('le due parole sono lunghe uguali');
 }
+
+//finito
