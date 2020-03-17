@@ -1,20 +1,16 @@
 /*Crea due array che hanno un numero di elementi diversi. Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.*/
 
-var primoArray = [1,2,3,4,5,6,7,8,9,10];
-console.log("l'array lungo è : " ,primoArray);
+var arrayMax = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var arrayMin = [1, 2, 3, 4, 5];
 
-var secondoArray = [1,2,3,4,5];
-console.log("array senza push : " , secondoArray);
-
-
-
-function riempimento (array1, array2){
- while (array1.length<array2.length) {
-   var valoreInserito = parseInt(prompt("inserisci numero" + "inserirai : " + (array2.length-array1.length) + "valori" ));
-   
-  array1.push(valoreInserito);
- }
- var arr = [array1, array2];
- return arr;
+function riempi(array1, array2) {
+  while (array1.length < array2.length) {
+    var valoreInserito = parseInt(prompt('Inserisci un valore.' + ' Inserirai : ' + (array2.length - array1.length + ' valori.')));
+    array1.push(valoreInserito);
+  }
+  return array1;
 }
-console.log(riempimento(primoArray , secondoArray));
+var res = riempi(arrayMin, arrayMax);
+
+console.log('Arrey pieno : ', arrayMax);
+console.log('Arrey da riempire : ', res);

@@ -24,3 +24,4 @@ while (i < 5) {
 console.log('Somma numeri inseriti : ', somma);
 
 //finito
+

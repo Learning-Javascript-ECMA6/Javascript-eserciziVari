@@ -21,3 +21,22 @@ function miaFunzione(nomeArray){
 //stampo in console il risultato richiamando la funzione
 var risultato = miaFunzione(mioArray);
 console.log("la somma del risultato dei numeri in posizione dispari invocando la funzione è : " , risultato);
+
+// Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari
+/*
+var numeri = [1,2,3,4,5,6,7,8,9,10];
+console.log(numeri);
+
+function somma(params) {
+    total = 0;
+    for (var i =0; i<numeri.length; i++){
+        if (numeri[i] % 2 != 0 ){
+            total += numeri[i];
+        }
+    }
+    return total;
+}
+var dispari = somma(numeri);
+console.log( 'somma numeri dispari : ' , dispari);
+
+ */
