@@ -1,0 +1,42 @@
+
+.purple{
+    background-color: purple;
+    color: white;
+    max-width: 150px;
+}
+
+.yellow{
+    background-color: yellow;
+    color: black;
+}
+
+.size{
+    font-size: 30px;
+}
+
+.tenda{
+    width: 100%;
+    height: 100vh;
+    background-color: crimson;
+}
+
+ p{
+    visibility: hidden;
+    padding-top: 200px;
+}
+
+#id3{
+    height: 150px;
+    width: 150px;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;   
+    position: relative;
+}
+span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

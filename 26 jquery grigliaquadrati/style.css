@@ -1,0 +1,57 @@
+*{
+    margin: 50;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container{
+    width: 800px;
+    height: 800px;
+    
+}
+
+.container > .item{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 3px solid rgb(0, 81, 128);
+} 
+
+#container-score{
+    width: 50px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#container-score > div{
+    width: 50px;
+    height: 50px;
+}
+
+.score{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 17px;
+    
+}
+
+.red{
+    background-color: purple;
+    color: white;  
+}
+
+.green{
+    background-color: lightgreen;
+    color: rgb(0, 81, 128);
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.question ,  ul li{
+    padding: 30px;
+}
+
+.question p { 
+    
+    display: none;
+}
+
+#modal {
+    display: none;
+    margin: 10px;
+    border: 4px solid purple;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    background-color: palevioletred;
+}
+
+
+span{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
